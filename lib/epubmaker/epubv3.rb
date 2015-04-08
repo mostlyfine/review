@@ -155,7 +155,7 @@ EOT
       end
 
       s = ""
-      s << %Q[  <spine>\n]
+      s << %Q[  <spine page-progression-direction="#{@producer.params["page-progression-direction"] || 'default'}">\n]
       s << %Q[    <itemref idref="#{@producer.params["bookname"]}" linear="#{cover_linear}"/>\n]
       s << %Q[    <itemref idref="#{@producer.params["bookname"]}-toc.#{@producer.params["htmlext"]}" />\n] if @producer.params["toc"]
 

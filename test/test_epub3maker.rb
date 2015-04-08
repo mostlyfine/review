@@ -69,7 +69,7 @@ EOT
     <item properties="nav" id="sample-toc.html" href="sample-toc.html" media-type="application/xhtml+xml"/>
     <item id="sample" href="sample.html" media-type="application/xhtml+xml"/>
   </manifest>
-  <spine>
+  <spine page-progression-direction="default">
     <itemref idref="sample" linear="no"/>
   </spine>
   <guide>
@@ -136,7 +136,7 @@ EOT
     <item id="sample" href="sample.html" media-type="application/xhtml+xml"/>
     <item id="ch01-html" href="ch01.html" media-type="application/xhtml+xml"/>
   </manifest>
-  <spine>
+  <spine page-progression-direction="default">
     <itemref idref="sample" linear="no"/>
     <itemref idref="ch01-html"/>
   </spine>
@@ -250,7 +250,7 @@ EOT
     <item id="sample-GIF" href="sample.GIF" media-type="image/gif"/>
     <item id="sample-css" href="sample.css" media-type="text/css"/>
   </manifest>
-  <spine>
+  <spine page-progression-direction="default">
     <itemref idref="sample" linear="no"/>
     <itemref idref="ch01-html"/>
     <itemref idref="ch02-html"/>

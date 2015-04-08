@@ -75,6 +75,9 @@ epubversion: 3
 # HTMLのバージョン (4か5。epubversionを3にしたときには5にする)
 # htmlversion: 5
 
+# ページ送り方法の指定(EPUB3)省略した場合はdefault
+# page-progression-direction: rtl
+
 # 目次を作成するか。省略した場合はnull（作成しない）
 # toc: true
 
