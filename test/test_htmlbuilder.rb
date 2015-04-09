@@ -178,6 +178,11 @@ class HTMLBuidlerTest < Test::Unit::TestCase
     assert_equal %Q|<br />|, actual
   end
 
+  def test_inline_tcy
+    actual = compile_inline("test @<tcy>{inline test} test2")
+    assert_equal %Q|test <span class=\"tcy\">inline test</span> test2|, actual
+  end
+
   def test_inline_i
     actual = compile_inline("test @<i>{inline test} test2")
     assert_equal %Q|test <i>inline test</i> test2|, actual

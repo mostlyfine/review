@@ -862,6 +862,10 @@ QUOTE
       %Q(<span class="bou">#{escape_html(str)}</span>)
     end
 
+    def inline_tcy(str)
+      %Q(<span class="tcy">#{escape_html(str)}</span>)
+    end
+
     def inline_tti(str)
       if @book.config["htmlversion"].to_i == 5
         %Q(<code class="tt"><i>#{escape_html(str)}</i></code>)

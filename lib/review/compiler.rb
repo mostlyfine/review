@@ -182,6 +182,7 @@ module ReVIEW
     definline :ruby
     definline :bou
     definline :ami
+    definline :tcy
     definline :b
     definline :dtp
     definline :code
